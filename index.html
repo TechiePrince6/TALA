@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#222] overflow-x-hidden">
+    <!-- navbar -->
+    <div id="full-scr-nav" class="z-[90] w-full h-[100vh] p-[20vh_15vh] bg-[bisque] absolute top-[-100%] text-[#222] transition-all ease-linear duration-[600ms]">
+        <h1 class="text-[20vh] uppercase font-[font2]">Menu</h1>
+        <h4 class="text-[7vh]">Home</h4>
+        <h4 class="text-[7vh]">About</h4>
+        <h4 class="text-[7vh]">Variety</h4>
+        <h4 class="text-[7vh]">Contact us</h4>
+    </div>
+    <nav class="w-full h-[10vh] px-12 text-[#d1d1d1] font-[font1] absolute z-[99] flex items-center justify-between">
+        <h2 class="text-2xl font-[font2] tracking-[1vh] cursor-pointer transition-all ease-linear duration-[900ms]">TALA</h2>
+        <div id="nav-right" class="flex gap-4 items-center font-[font2] transition-all ease-linear duration-[900ms]">
+            <h3 class="text-xl">CART 0</h3>
+            <div id="menu" class="w-[2vw] h-[1.6vh] flex flex-col items-start justify-between cursor-pointer">
+                <div class="line rounded-[1vw] h-[0.3vh] w-full bg-[#cecece]" id="line1"></div>
+                <div class="line rounded-[1vw] h-[0.3vh] w-full bg-[#cecece]" id="line2"></div>
+            </div>
+        </div>
+    </nav>
+    <main class="relative text-[#d1d1d1] font-[font1] bg-[#222]">
+        <!-- page 1 -->
+        <div id="page1" class="w-full h-[80vh] relative ">
+            <h1 class="text-[15vw] absolute font-[font2] top-[18%] left-[6%] tracking-[2vh]">TALA</h1>
+            <h2 class="w-[28%] text-[#777] leading-[5.5vh] font-[font2] absolute top-[65%] left-[21.5%] text-[3vw]">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An entirely<br>
+                new fruit snack — <br>
+                made of fruit.
+            </h2>
+            <h3 id="heading" class="uppercase text-white font-[font2] font-[900] text-[9vh] tracking-tighter leading-[10vh]"><span class="text-[#444]">One ingredient</span><span>™</span><br>
+                <span class="text-[10vh] font-[1000]">one incredible</span><br>
+                <span>crunch</span>
+            </h3>
+        </div>
+        <!-- page 2 -->
+        <div id="page2" class="w-full h-[100vh] pb-[10vh] relative">
+            <img src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d81e4b4c1217_hero-2.jpg" alt="">
+        </div>
+        <!-- page 3 -->
+         <div id="page3" class="w-full h-[80vh] origin-[100%] mt-14 flex flex-col items-center justify-center leading-[7vh] text-[3.3vw] text-center">
+               <p>We're bringing fruit snacks back to </p>
+               <p> their roots with <span class="font-['Dancing_Script']"> perfectly ripe fruit </span></p> 
+               <p class="font-['Dancing_Script']">bursting with flavor.</p>
+         </div>
+         <!-- page 4 -->
+          <div id="page4" class="w-full h-[120vh] relative">
+            <div id="page4-contents" class="h-[100vh] relative p-[10vh_6vw]">
+                <div id="line" class="h-[2px] w-[20%] bg-[#adadad]">
+                    <h5 class="absolute left-[22vw] top-[7vh] font-[font2] uppercase font-[1vw]">Available in</h5>
+                </div>
+                <!-- Mango -->
+                <div class="fruit" id="mango">
+                    <div class="card mangocard z-[110]">
+                        <h2>TALA <br>01</h2>
+                        <h3>ingredients: Mango</h3>
+                    </div>
+                    <h5>01</h5>
+                    <h1 class="fruitname">Mango</h1>
+                    <p><i class="ri-arrow-right-up-line"></i></p>
+                </div>
+                <!-- Banana -->
+                <div class="fruit" id="Banana">
+                    <div class="card bananacard z-[120]">
+                        <h2>TALA <br>01</h2>
+                        <h3>ingredients: banana</h3>
+                    </div>
+                    <h5>02</h5>
+                    <h1 class="fruitname">Banana</h1>
+                    <p><i class="ri-arrow-right-up-line"></i></p>
+                </div>
+                <!-- Pineapple -->
+                <div class="fruit" id="PineApple">
+                    <h5>03</h5>
+                    <div class="card pinecard z-[130]">
+                        <h2>TALA <br>01</h2>
+                        <h3>ingredients: pineapple</h3>
+                    </div>
+                    <h1 class="fruitname">PineApple</h1>
+                    <p><i class="ri-arrow-right-up-line"></i></p>
+                </div>
+                <!-- Pithaya -->
+                <div class="fruit" id="Pithaya">
+                    <h5>04</h5>
+                    <div class="card pithayacard z-[140]">
+                        <h2>TALA <br>01</h2>
+                        <h3>ingredients: pithaya</h3>
+                    </div>
+                    <h1 class="fruitname">Pithaya</h1>
+                    <p><i class="ri-arrow-right-up-line"></i></p>
+                </div>
+                <!-- Variety -->
+                <div class="fruit" id="Variety">
+                    <h5>05</h5>
+                    <h1 class="fruitname">Variety</h1>
+                    <p><i class="ri-arrow-right-up-line"></i></p>
+                </div>
+            </div>
+          </div>
+          <!-- page 5 -->
+          <div id="page5" class="w-full h-[80vh] relative p-[5vw_5vh]">
+            <h1 class="uppercase text-[9vw] leading-[9vw] tracking-wider opacity-0">
+                I finished the <br>
+                box & regret <br>
+                nothing.
+            </h1>
+          </div>
+          <!-- page 6 -->
+           <div id="page6" class="w-full h-[130vh] relative">
+            <div id="elems" class="uppercase w-full font-[font2] h-[22%] flex items-center justify-center">
+                <div id="left" class="w-[70%] h-full">
+                    <h1 class="w-full h-full text-[4vw] hover:border-opacity-60 border-2 border-[#d1d1d1] p-[5vw_10vh] tracking-wide leading-[8vh]">so crunchy i get <br>noise complaints.</h1>
+                </div>
+                <div id="right" class="w-[30%] h-full text-center">
+                    <h1 class="w-full h-full text-[2vw] p-[4.2vh] hover:border-opacity-60 border-t-2 border-r-2 border-b-2 border-[#d1d1d1]">this is what "fruit <br>snacks" should have <br>always been</h1>
+                </div>
+            </div>
+            <div id="page6-content" class="w-full h-[78%] flex flex-col gap-10 items-center justify-center">
+                <h1 class="text-center font-[font2] leading-[6vh] text-[8vh]">Guilt-Free satisfaction for <br><span class="font-['Dancing_Script']">every occasion</span></h1>
+                <p class="text-[3vh] font-[font2] leading-7">Yes, you can actually eat TALA in <br>space. Now you just have to figure out <br>how to get there.</p>
+                <img id="smiley" class="mt-[8vh] h-[12vh]" src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d87fb04c11fc_smiley.svg" alt="">
+            </div>
+           </div>
+          <!-- page 7 -->
+           <div id="page7" class="w-full h-[130vh] relative">
+            <div id="slides">
+                <h1><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span></h1>
+            </div>
+            <div id="slides2">
+                <h1><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span></h1>
+            </div>
+            <div id="slides">
+                <h1><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span></h1>
+            </div>
+            <div id="slides2">
+                <h1><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span></h1>
+            </div>
+            <div id="slides">
+                <h1><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span></h1>
+            </div>
+            <div id="slides2">
+                <h1><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span><span class="one1">One</span><span class="one2">One</span></h1>
+            </div>
+           </div>
+          <!-- page 8 -->
+          <div id="page8" class="w-full h-[70vh] relative font-[font2]">
+            <div id="upper" class="w-full h-[50%] flex items-center justify-center">
+                <h1 class="text-[10vh] text-center leading-[10vh]">
+                    Does your fruit snack <br>
+                    <span class="font-['Dancing_Script']">contain fruit?</span>
+                </h1>
+            </div>
+            <div id="lower" class="w-full h-[50%] text-[10vh] flex items-start justify-around">
+                <div id="yes" class="w-[20%] h-full flex items-center justify-center">
+                    <h1 class="relative z-[9]">Yes</h1>
+                    <img class="absolute h-[35vh] opacity-0 transition-opacity ease-in duration-200 cursor-none" src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d8f4394c120b_bananas.gif" alt="">
+                </div>
+                <div id="no" class="w-[20%] h-full flex items-center justify-center">
+                    <h1 class="relative z-[9]">No</h1>
+                    <img class="absolute h-[35vh] opacity-0 transition-opacity ease-in duration-200 cursor-none" src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d87bfc4c1204_syrup.gif" alt="">
+                </div>
+            </div>
+          </div>
+          
+          <!-- page 9 -->
+          <div id="page9" class="w-full h-[100vh] relative flex flex-col items-center justify-center">
+            <h1 class="text-center font-[font2] text-[10vh] absolute top-[15vh]">Snack Better ;)</h1>
+            <div id="product" class="flex items-center justify-center">
+                <div class="products" id="product1"><img
+                    src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d848674c1222_01_transparent.png"
+                    alt=""></div>
+            <div class="products" id="product2"><img
+                    src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d863d94c1221_02_transparent.png"
+                    alt=""></div>
+            <div class="products" id="product3"><img
+                    src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d823654c1219_03_transparent.png"
+                    alt=""></div>
+            <div class="products" id="product4"><img
+                    src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d84f0b4c121f_04_transparent.png"
+                    alt=""></div>
+            <div class="products" id="product5"><img
+                    src="https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d87bcc4c1220_05_transparent.png"
+                    alt=""></div>
+            </div>
+          </div>
+    
+    </main>
+    <!-- locomotive gsap scrolltrigger scriptjs -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
